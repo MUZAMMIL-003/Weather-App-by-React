@@ -1,4 +1,3 @@
-
 function WeatherInfo({ weatherData }) {
     const { weather, main, sys } = weatherData;
     const temp = Math.round(main?.temp - 273.15);
