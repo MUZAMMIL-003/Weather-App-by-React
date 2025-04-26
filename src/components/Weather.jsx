@@ -6,6 +6,7 @@ function WeatherInfo({ weatherData }) {
 
 
     return (
+
       
       <div className="bg-white bg-opacity-80 p-10 rounded-lg shadow-lg text-center">
         <img
