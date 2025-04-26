@@ -4,8 +4,9 @@ function WeatherInfo({ weatherData }) {
     const temp = Math.round(main?.temp - 273.15);
     const feels_like = Math.round(main?.feels_like - 273.15);
 
-    
+
     return (
+      
       <div className="bg-white bg-opacity-80 p-10 rounded-lg shadow-lg text-center">
         <img
           src={`https://openweathermap.org/img/wn/${weather[0].icon}@2x.png`}
