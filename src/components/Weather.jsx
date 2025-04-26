@@ -35,9 +35,10 @@ function WeatherInfo({ weatherData }) {
           <span>{new Date(sys?.sunset * 1000).toLocaleTimeString()}</span>
         </div>
       </div>
-      
+
     );
   }
+  
   
   export default WeatherInfo;
   
