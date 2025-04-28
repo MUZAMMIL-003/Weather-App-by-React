@@ -44,7 +44,7 @@ function App() {
   }, [chosen]);
 
   const handleCityChange = (e) => {
-    setChosen(e.target.value);
+      setChosen(e.target.value);
   };
 
   return (
