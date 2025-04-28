@@ -35,7 +35,7 @@ function WeatherInfo({ weatherData }) {
     </div>
 
   );
-}
+};
 
 export default WeatherInfo;
 
