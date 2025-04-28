@@ -37,7 +37,6 @@ function WeatherInfo({ weatherData }) {
   );
 }
 
-
 export default WeatherInfo;
 
 
