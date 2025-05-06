@@ -3,6 +3,7 @@ import "./App.css";
 import WeatherInfo from "./components/Weather";
 
 
+
 const popularCities = [
   "Karachi",
   "Tokyo",
