@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import WeatherInfo from "./components/Weather";
 
+
 const popularCities = [
   "Karachi",
   "Tokyo",
@@ -27,7 +28,7 @@ const popularCities = [
 ];
 
 function App() {
-  
+
   const [chosen, setChosen] = useState(popularCities[0]);
   const [weatherData, setWeatherData] = useState(null);
   const [loading, setLoading] = useState(false);
