@@ -36,6 +36,7 @@ function App() {
     fetch(
       `https://api.openweathermap.org/data/2.5/weather?q=${chosen}&appid=1f136667cfcdb418bf8b7a4c5a542f00`
     )
+    
       .then((res) => res.json())
       .then((res) => {
         setWeatherData(res);
