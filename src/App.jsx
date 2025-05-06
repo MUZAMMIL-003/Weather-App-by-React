@@ -42,7 +42,7 @@ function App() {
         setWeatherData(res);
         setLoading(false);
       });
-      
+
   }, [chosen]);
 
   const handleCityChange = (e) => {
@@ -74,6 +74,7 @@ function App() {
     </div>
   );
 }
+
 
 export default App;
 
