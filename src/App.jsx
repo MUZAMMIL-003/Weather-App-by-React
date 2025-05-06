@@ -45,6 +45,7 @@ function App() {
 
   }, [chosen]);
 
+  
   const handleCityChange = (e) => {
       setChosen(e.target.value);
   };
@@ -53,7 +54,7 @@ function App() {
 
   return (
 
-    
+
     <div className="min-h-screen flex flex-col items-center justify-center bg-cover bg-center">
       <h1 className="text-3xl text-gray-800 font-bold mb-10">Weather App</h1>
       <select
