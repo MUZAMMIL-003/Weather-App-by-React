@@ -27,6 +27,7 @@ const popularCities = [
 ];
 
 function App() {
+  
   const [chosen, setChosen] = useState(popularCities[0]);
   const [weatherData, setWeatherData] = useState(null);
   const [loading, setLoading] = useState(false);
@@ -45,7 +46,7 @@ function App() {
 
   }, [chosen]);
 
-  
+
   const handleCityChange = (e) => {
       setChosen(e.target.value);
   };
