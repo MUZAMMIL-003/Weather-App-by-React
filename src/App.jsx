@@ -26,6 +26,7 @@ const popularCities = [
   "Mexico City",
   "Berlin",
   "Madrid",
+  
 ];
 
 function App() {
