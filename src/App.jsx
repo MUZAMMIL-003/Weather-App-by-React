@@ -5,7 +5,7 @@ import WeatherInfo from "./components/Weather";
 
 
 const popularCities = [
-  
+
   "Karachi",
   "Tokyo",
   "New York",
@@ -29,6 +29,7 @@ const popularCities = [
   "Madrid",
 
 ];
+
 
 function App() {
 
