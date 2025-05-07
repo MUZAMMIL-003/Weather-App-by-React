@@ -31,7 +31,6 @@ const popularCities = [
 ];
 
 
-
 function App() {
 
   const [chosen, setChosen] = useState(popularCities[0]);
